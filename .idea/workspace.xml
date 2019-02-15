@@ -2,8 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cee4ff21-61bc-408b-aca9-f95dbcd41c97" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/RectangleTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Rectangle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Rectangle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/ComparatorTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Comparator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Comparator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/RectangleTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/RectangleTest.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -23,33 +25,28 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="java" value="9" />
+          <entry key="java" value="10" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="9" />
+          <entry key="JAVA" value="10" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="1540" />
+          <entry key="java" value="1717" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="1540" />
+          <entry key="JAVA" value="1717" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/Figure.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -86,11 +83,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/RectangleTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-14">
-              <caret line="37" selection-start-line="37" selection-end-line="37" />
+            <state>
+              <caret selection-end-column="40" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -114,8 +111,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/CircleTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="374">
-              <caret line="38" lean-forward="true" selection-end-line="38" />
+            <state relative-caret-position="-102">
+              <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -126,8 +123,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/Rectangle.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="16" column="4" lean-forward="true" selection-start-line="16" selection-start-column="4" selection-end-line="16" selection-end-column="4" />
+            <state relative-caret-position="136">
+              <caret line="16" column="5" lean-forward="true" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
               <folding>
                 <element signature="e#527#528#0" expanded="true" />
                 <element signature="e#563#564#0" expanded="true" />
@@ -141,8 +138,20 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/Comparator.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="13" column="10" selection-start-line="13" selection-start-column="10" selection-end-line="13" selection-end-column="10" />
+            <state relative-caret-position="323">
+              <caret line="19" column="21" lean-forward="true" selection-start-line="19" selection-start-column="21" selection-end-line="19" selection-end-column="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/ComparatorTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="187">
+              <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -178,14 +187,15 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/src/main/java/Figure.java" />
-        <option value="$PROJECT_DIR$/src/main/java/Comparator.java" />
         <option value="$PROJECT_DIR$/src/main/java/FigureElementNegative.java" />
         <option value="$PROJECT_DIR$/src/main/java/Circle.java" />
         <option value="$PROJECT_DIR$/src/test/java/CircleTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/Square.java" />
         <option value="$PROJECT_DIR$/src/test/java/SquareTest.java" />
-        <option value="$PROJECT_DIR$/src/test/java/RectangleTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/Rectangle.java" />
+        <option value="$PROJECT_DIR$/src/test/java/RectangleTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Comparator.java" />
+        <option value="$PROJECT_DIR$/src/test/java/ComparatorTest.java" />
       </list>
     </option>
   </component>
@@ -258,7 +268,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1550226652736" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1550230629852" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -276,71 +286,71 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.RectangleTest.calculateAreaWithPositiveSideOk">
-    <configuration name="CircleTest.calculatePerimeterWithPositiveRadiusOk" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.ComparatorTest.ifFirstFigureAreaIsLowerThanSecondOneReturnNegativeOne">
+    <configuration name="ComparatorTest.ifFirstFigureAreaIsEqualToSecondOneReturnZero" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="TestFigures" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="CircleTest" />
-      <option name="METHOD_NAME" value="calculatePerimeterWithPositiveRadiusOk" />
+      <option name="MAIN_CLASS_NAME" value="ComparatorTest" />
+      <option name="METHOD_NAME" value="ifFirstFigureAreaIsEqualToSecondOneReturnZero" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RectangleTest.calculateAreaWithPositiveSideOk" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ComparatorTest.ifFirstFigureAreaIsGreaterThanSecondOneReturnOne" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="TestFigures" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="RectangleTest" />
-      <option name="METHOD_NAME" value="calculateAreaWithPositiveSideOk" />
+      <option name="MAIN_CLASS_NAME" value="ComparatorTest" />
+      <option name="METHOD_NAME" value="ifFirstFigureAreaIsGreaterThanSecondOneReturnOne" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RectangleTest.calculatePerimeterWithPositiveSideOk" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ComparatorTest.ifFirstFigureAreaIsLowerThanSecondOneReturnNegativeOne" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="TestFigures" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="RectangleTest" />
-      <option name="METHOD_NAME" value="calculatePerimeterWithPositiveSideOk" />
+      <option name="MAIN_CLASS_NAME" value="ComparatorTest" />
+      <option name="METHOD_NAME" value="ifFirstFigureAreaIsLowerThanSecondOneReturnNegativeOne" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SquareTest.calculateAreaWithPositiveSideOk" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ComparatorTest.ifFirstFigurePerimeterIsEqualToSecondOneItShouldReturnIntegerZero" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="TestFigures" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="SquareTest" />
-      <option name="METHOD_NAME" value="calculateAreaWithPositiveSideOk" />
+      <option name="MAIN_CLASS_NAME" value="ComparatorTest" />
+      <option name="METHOD_NAME" value="ifFirstFigurePerimeterIsEqualToSecondOneItShouldReturnIntegerZero" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SquareTest.calculatePerimeterWithPositiveSideOk" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ComparatorTest.ifFirstFigurePerimeterIsLowerThanSecondOneReturnIntegerNegativeOne" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="TestFigures" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="SquareTest" />
-      <option name="METHOD_NAME" value="calculatePerimeterWithPositiveSideOk" />
+      <option name="MAIN_CLASS_NAME" value="ComparatorTest" />
+      <option name="METHOD_NAME" value="ifFirstFigurePerimeterIsLowerThanSecondOneReturnIntegerNegativeOne" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <list>
-      <item itemvalue="JUnit.CircleTest.calculatePerimeterWithPositiveRadiusOk" />
-      <item itemvalue="JUnit.SquareTest.calculateAreaWithPositiveSideOk" />
-      <item itemvalue="JUnit.SquareTest.calculatePerimeterWithPositiveSideOk" />
-      <item itemvalue="JUnit.RectangleTest.calculatePerimeterWithPositiveSideOk" />
-      <item itemvalue="JUnit.RectangleTest.calculateAreaWithPositiveSideOk" />
+      <item itemvalue="JUnit.ComparatorTest.ifFirstFigureAreaIsLowerThanSecondOneReturnNegativeOne" />
+      <item itemvalue="JUnit.ComparatorTest.ifFirstFigurePerimeterIsLowerThanSecondOneReturnIntegerNegativeOne" />
+      <item itemvalue="JUnit.ComparatorTest.ifFirstFigureAreaIsEqualToSecondOneReturnZero" />
+      <item itemvalue="JUnit.ComparatorTest.ifFirstFigurePerimeterIsEqualToSecondOneItShouldReturnIntegerZero" />
+      <item itemvalue="JUnit.ComparatorTest.ifFirstFigureAreaIsGreaterThanSecondOneReturnOne" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.RectangleTest.calculateAreaWithPositiveSideOk" />
-        <item itemvalue="JUnit.RectangleTest.calculatePerimeterWithPositiveSideOk" />
-        <item itemvalue="JUnit.SquareTest.calculatePerimeterWithPositiveSideOk" />
-        <item itemvalue="JUnit.SquareTest.calculateAreaWithPositiveSideOk" />
-        <item itemvalue="JUnit.CircleTest.calculatePerimeterWithPositiveRadiusOk" />
+        <item itemvalue="JUnit.ComparatorTest.ifFirstFigureAreaIsLowerThanSecondOneReturnNegativeOne" />
+        <item itemvalue="JUnit.ComparatorTest.ifFirstFigureAreaIsGreaterThanSecondOneReturnOne" />
+        <item itemvalue="JUnit.ComparatorTest.ifFirstFigurePerimeterIsEqualToSecondOneItShouldReturnIntegerZero" />
+        <item itemvalue="JUnit.ComparatorTest.ifFirstFigureAreaIsEqualToSecondOneReturnZero" />
+        <item itemvalue="JUnit.ComparatorTest.ifFirstFigurePerimeterIsLowerThanSecondOneReturnIntegerNegativeOne" />
       </list>
     </recent_temporary>
   </component>
@@ -358,27 +368,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="CircleTest_calculateAreWithPositiveRadiusOk - 2019.02.15 at 11h 06m 52s.xml">
-      <configuration name="CircleTest.calculateAreWithPositiveRadiusOk" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="CircleTest_calculateAreWithPositiveRadiusOk - 2019.02.15 at 11h 07m 13s.xml">
-      <configuration name="CircleTest.calculateAreWithPositiveRadiusOk" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="CircleTest_calculateAreWithPositiveRadiusOk - 2019.02.15 at 11h 07m 25s.xml">
-      <configuration name="CircleTest.calculateAreWithPositiveRadiusOk" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="CircleTest_calculatePerimeterWithPositiveRadiusOk - 2019.02.15 at 11h 09m 31s.xml">
-      <configuration name="CircleTest.calculatePerimeterWithPositiveRadiusOk" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="CircleTest_calculatePerimeterWithPositiveRadiusOk - 2019.02.15 at 11h 09m 43s.xml">
-      <configuration name="CircleTest.calculatePerimeterWithPositiveRadiusOk" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="CircleTest_calculatePerimeterWithPositiveRadiusOk - 2019.02.15 at 11h 10m 01s.xml">
-      <configuration name="CircleTest.calculatePerimeterWithPositiveRadiusOk" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="SquareTest_calculateAreaWithPositiveSideOk - 2019.02.15 at 11h 18m 30s.xml">
-      <configuration name="SquareTest.calculateAreaWithPositiveSideOk" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="SquareTest_calculatePerimeterWithPositiveSideOk - 2019.02.15 at 11h 19m 03s.xml">
       <configuration name="SquareTest.calculatePerimeterWithPositiveSideOk" configurationId="JUnit" />
     </history-entry>
@@ -387,6 +376,27 @@
     </history-entry>
     <history-entry file="SquareTest_calculatePerimeterWithPositiveSideOk - 2019.02.15 at 11h 19m 40s.xml">
       <configuration name="SquareTest.calculatePerimeterWithPositiveSideOk" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="RectangleTest_calculateAreaWithPositiveSideOk - 2019.02.15 at 11h 31m 38s.xml">
+      <configuration name="RectangleTest.calculateAreaWithPositiveSideOk" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="RectangleTest_calculatePerimeterWithPositiveSideOk - 2019.02.15 at 11h 31m 38s.xml">
+      <configuration name="RectangleTest.calculatePerimeterWithPositiveSideOk" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="RectangleTest_calculateAreaWithPositiveSideOk - 2019.02.15 at 11h 33m 36s.xml">
+      <configuration name="RectangleTest.calculateAreaWithPositiveSideOk" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="RectangleTest_calculatePerimeterWithPositiveSideOk - 2019.02.15 at 11h 33m 48s.xml">
+      <configuration name="RectangleTest.calculatePerimeterWithPositiveSideOk" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="RectangleTest_havingRectangleHeightNegativeThrowsAFigureElementNegativeException - 2019.02.15 at 11h 33m 57s.xml">
+      <configuration name="RectangleTest.havingRectangleHeightNegativeThrowsAFigureElementNegativeException" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="RectangleTest_havingRectangleBaseNegativeThrowsAFigureElementNegativeException - 2019.02.15 at 11h 34m 12s.xml">
+      <configuration name="RectangleTest.havingRectangleBaseNegativeThrowsAFigureElementNegativeException" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="RectangleTest - 2019.02.15 at 11h 34m 24s.xml">
+      <configuration name="RectangleTest" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
@@ -406,8 +416,8 @@
       <window_info anchor="bottom" id="Messages" weight="0.32894737" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32894737" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.3991228" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32894737" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.1491228" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -452,34 +462,9 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/RectangleTest.java</url>
-          <line>37</line>
-          <properties />
-          <option name="timeStamp" value="8" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/RectangleTest.java</url>
-          <line>49</line>
-          <properties />
-          <option name="timeStamp" value="9" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
-  </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Comparator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" column="10" selection-start-line="13" selection-start-column="10" selection-end-line="13" selection-end-column="10" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Figure.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -495,16 +480,6 @@
           <folding>
             <element signature="e#215#216#0" expanded="true" />
             <element signature="e#245#246#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/CircleTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="38" lean-forward="true" selection-end-line="38" />
-          <folding>
-            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -535,19 +510,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Rectangle.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="16" column="4" lean-forward="true" selection-start-line="16" selection-start-column="4" selection-end-line="16" selection-end-column="4" />
-          <folding>
-            <element signature="e#527#528#0" expanded="true" />
-            <element signature="e#563#564#0" expanded="true" />
-            <element signature="e#613#614#0" expanded="true" />
-            <element signature="e#655#656#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/SquareTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="629">
@@ -558,10 +520,50 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Rectangle.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="16" column="5" lean-forward="true" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
+          <folding>
+            <element signature="e#527#528#0" expanded="true" />
+            <element signature="e#563#564#0" expanded="true" />
+            <element signature="e#613#614#0" expanded="true" />
+            <element signature="e#655#656#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Comparator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="19" column="21" lean-forward="true" selection-start-line="19" selection-start-column="21" selection-end-line="19" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/RectangleTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-14">
-          <caret line="37" selection-start-line="37" selection-end-line="37" />
+        <state>
+          <caret selection-end-column="40" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/CircleTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-102">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/ComparatorTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

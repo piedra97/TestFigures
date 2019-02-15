@@ -1,20 +1,20 @@
 
 
 public class Comparator {
-    public int compareArea(Figure figureOne, Figure figureTwo) {
-        if (figureOne.getArea() > figureTwo.getArea()) {
+    public int compareArea(Figure figureA, Figure figureB) {
+        if (figureA.getArea() > figureB.getArea()) {
             return 1;
-        } else if (figureOne.getArea() < figureTwo.getArea()) {
+        } else if (figureA.getArea() < figureB.getArea()) {
             return -1;
         } else {
             return 0;
         }
     }
 
-   public  int comparePerimeter(Figure figureOne, Figure figureTwo) {
-        if (figureOne.getPerimeter() > figureTwo.getPerimeter()) {
+   public  int comparePerimeter(Figure figureA, Figure figureB) {
+        if (figureA.getPerimeter() > figureB.getPerimeter()) {
             return 1;
-        } else if (figureOne.getPerimeter() < figureTwo.getPerimeter()) {
+        } else if (figureA.getPerimeter() < figureB.getPerimeter()) {
             return -1;
         } else {
             return 0;
