@@ -1,10 +1,10 @@
-class FigureElementNegative extends Exception
+class FigureElementNegativeException extends Exception
 {
 
-    public FigureElementNegative() {}
+    public FigureElementNegativeException() {}
 
 
-    public FigureElementNegative(String message)
+    public FigureElementNegativeException(String message)
     {
         super(message);
     }
