@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cee4ff21-61bc-408b-aca9-f95dbcd41c97" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/ComparatorTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Comparator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Comparator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/RectangleTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/RectangleTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ComparatorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ComparatorTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -35,12 +32,12 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="1717" />
+          <entry key="java" value="1920" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="1717" />
+          <entry key="JAVA" value="1920" />
         </counts>
       </usages-collector>
     </session>
@@ -111,7 +108,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/CircleTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-102">
+            <state relative-caret-position="-119">
               <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -138,8 +135,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/Comparator.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="19" column="21" lean-forward="true" selection-start-line="19" selection-start-column="21" selection-end-line="19" selection-end-column="21" />
+            <state relative-caret-position="153">
+              <caret line="9" column="21" lean-forward="true" selection-start-line="9" selection-start-column="21" selection-end-line="9" selection-end-column="21" />
             </state>
           </provider>
         </entry>
@@ -147,8 +144,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/ComparatorTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+            <state relative-caret-position="-357">
+              <caret line="15" column="5" lean-forward="true" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -268,7 +265,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1550230629852" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1550230714327" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -368,35 +365,35 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="SquareTest_calculatePerimeterWithPositiveSideOk - 2019.02.15 at 11h 19m 03s.xml">
-      <configuration name="SquareTest.calculatePerimeterWithPositiveSideOk" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="SquareTest_calculateAreaWithPositiveSideOk - 2019.02.15 at 11h 19m 31s.xml">
-      <configuration name="SquareTest.calculateAreaWithPositiveSideOk" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="SquareTest_calculatePerimeterWithPositiveSideOk - 2019.02.15 at 11h 19m 40s.xml">
-      <configuration name="SquareTest.calculatePerimeterWithPositiveSideOk" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="RectangleTest_calculateAreaWithPositiveSideOk - 2019.02.15 at 11h 31m 38s.xml">
-      <configuration name="RectangleTest.calculateAreaWithPositiveSideOk" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="RectangleTest_calculatePerimeterWithPositiveSideOk - 2019.02.15 at 11h 31m 38s.xml">
-      <configuration name="RectangleTest.calculatePerimeterWithPositiveSideOk" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="RectangleTest_calculateAreaWithPositiveSideOk - 2019.02.15 at 11h 33m 36s.xml">
-      <configuration name="RectangleTest.calculateAreaWithPositiveSideOk" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="RectangleTest_calculatePerimeterWithPositiveSideOk - 2019.02.15 at 11h 33m 48s.xml">
-      <configuration name="RectangleTest.calculatePerimeterWithPositiveSideOk" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="RectangleTest_havingRectangleHeightNegativeThrowsAFigureElementNegativeException - 2019.02.15 at 11h 33m 57s.xml">
-      <configuration name="RectangleTest.havingRectangleHeightNegativeThrowsAFigureElementNegativeException" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="RectangleTest_havingRectangleBaseNegativeThrowsAFigureElementNegativeException - 2019.02.15 at 11h 34m 12s.xml">
-      <configuration name="RectangleTest.havingRectangleBaseNegativeThrowsAFigureElementNegativeException" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="RectangleTest - 2019.02.15 at 11h 34m 24s.xml">
       <configuration name="RectangleTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ComparatorTest_ifFirstFigureAreaIsGreaterThanSecondOneReturnOne - 2019.02.15 at 12h 34m 06s.xml">
+      <configuration name="ComparatorTest.ifFirstFigureAreaIsGreaterThanSecondOneReturnOne" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ComparatorTest_ifFirstFigurePerimeterIsGreaterThanSecondOneReturnOne - 2019.02.15 at 12h 35m 01s.xml">
+      <configuration name="ComparatorTest.ifFirstFigurePerimeterIsGreaterThanSecondOneReturnOne" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ComparatorTest_ifFirstFigureAreaIsLowerThanSecondOneReturnNegativeOne - 2019.02.15 at 12h 35m 18s.xml">
+      <configuration name="ComparatorTest.ifFirstFigureAreaIsLowerThanSecondOneReturnNegativeOne" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ComparatorTest_ifFirstFigurePerimeterIsLowerThanSecondOneReturnIntegerNegativeOne - 2019.02.15 at 12h 35m 32s.xml">
+      <configuration name="ComparatorTest.ifFirstFigurePerimeterIsLowerThanSecondOneReturnIntegerNegativeOne" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ComparatorTest_ifFirstFigureAreaIsEqualToSecondOneReturnZero - 2019.02.15 at 12h 35m 43s.xml">
+      <configuration name="ComparatorTest.ifFirstFigureAreaIsEqualToSecondOneReturnZero" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ComparatorTest_ifFirstFigurePerimeterIsEqualToSecondOneItShouldReturnIntegerZero - 2019.02.15 at 12h 35m 51s.xml">
+      <configuration name="ComparatorTest.ifFirstFigurePerimeterIsEqualToSecondOneItShouldReturnIntegerZero" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ComparatorTest_ifFirstFigureAreaIsGreaterThanSecondOneReturnOne - 2019.02.15 at 12h 36m 19s.xml">
+      <configuration name="ComparatorTest.ifFirstFigureAreaIsGreaterThanSecondOneReturnOne" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ComparatorTest_ifFirstFigureAreaIsGreaterThanSecondOneReturnOne - 2019.02.15 at 12h 37m 04s.xml">
+      <configuration name="ComparatorTest.ifFirstFigureAreaIsGreaterThanSecondOneReturnOne" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ComparatorTest_ifFirstFigureAreaIsLowerThanSecondOneReturnNegativeOne - 2019.02.15 at 12h 37m 12s.xml">
+      <configuration name="ComparatorTest.ifFirstFigureAreaIsLowerThanSecondOneReturnNegativeOne" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
@@ -416,7 +413,7 @@
       <window_info anchor="bottom" id="Messages" weight="0.32894737" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32894737" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32894737" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.1491228" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -533,13 +530,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Comparator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="19" column="21" lean-forward="true" selection-start-line="19" selection-start-column="21" selection-end-line="19" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/RectangleTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -550,9 +540,16 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Comparator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="21" lean-forward="true" selection-start-line="9" selection-start-column="21" selection-end-line="9" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/CircleTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-102">
+        <state relative-caret-position="-119">
           <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -562,8 +559,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/ComparatorTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+        <state relative-caret-position="-357">
+          <caret line="15" column="5" lean-forward="true" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
