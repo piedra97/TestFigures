@@ -4,7 +4,12 @@ public class Square extends Figure {
     private double side;
 
     public Square(double side) {
-        this.side = side;
+        if (side > 0) this.side = side;
+        else try {
+            throw new FigureElementNegativeException("Square's side cannot be a negative number");
+        } catch (FigureElementNegativeException e) {
+            e.printStackTrace();
+        }
     }
 
     @Override
