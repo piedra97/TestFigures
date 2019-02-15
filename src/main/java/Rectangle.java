@@ -4,7 +4,7 @@ public class Rectangle extends Figure {
     private double base;
     private double height;
 
-    Rectangle(double base, double height) {
+    public Rectangle(double base, double height) {
         this.base = base;
         this.height = height;
     }

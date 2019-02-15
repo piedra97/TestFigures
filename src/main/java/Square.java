@@ -3,7 +3,7 @@
 public class Square extends Figure {
     private double side;
 
-    Square(double side) {
+    public Square(double side) {
         this.side = side;
     }
 

@@ -1,7 +1,7 @@
 
 
 public class Comparator {
-    int compareArea(Figure figureOne, Figure figureTwo) {
+    public int compareArea(Figure figureOne, Figure figureTwo) {
         if (figureOne.getArea() > figureTwo.getArea()) {
             return 1;
         } else if (figureOne.getArea() < figureTwo.getArea()) {
@@ -11,7 +11,7 @@ public class Comparator {
         }
     }
 
-    int comparePerimeter(Figure figureOne, Figure figureTwo) {
+   public  int comparePerimeter(Figure figureOne, Figure figureTwo) {
         if (figureOne.getPerimeter() > figureTwo.getPerimeter()) {
             return 1;
         } else if (figureOne.getPerimeter() < figureTwo.getPerimeter()) {
