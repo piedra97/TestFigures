@@ -5,17 +5,19 @@ import org.junit.Test;
 public class SquareTest {
 
 
-    @Test(expected = FigureElementNegativeException.class)
-    public void havingSquareSideNegativeThrowsAFigureElementNegativeException() {
+    @Test
+    public void havingSquareSideNegativeThrowsAFigureElementNegativeException() throws FigureElementNegativeException {
         //Arrange
         double side = -1.0;
-        //Act
-        Square square = new Square(side);
-        //Assert
-        Assertions.fail();
+        try {
+            //Act
+            Square square = new Square(side);
+            //Assert
+            Assertions.fail("Figure Element Negative Exception not thrown");
+        } catch (FigureElementNegativeException ignored) {}
     }
     @Test
-    public void calculateAreaWithPositiveSideOk() {
+    public void calculateAreaWithPositiveSideOk() throws FigureElementNegativeException {
         //Arrange
         double side = 5.0;
         //Act
@@ -26,7 +28,7 @@ public class SquareTest {
     }
 
     @Test
-    public void calculatePerimeterWithPositiveSideOk() {
+    public void calculatePerimeterWithPositiveSideOk() throws FigureElementNegativeException {
         //Arrange
         double side = 5.0;
         //Act

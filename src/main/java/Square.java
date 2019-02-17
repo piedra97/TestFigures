@@ -3,12 +3,10 @@
 public class Square extends Figure {
     private double side;
 
-    public Square(double side) {
+    public Square(double side) throws FigureElementNegativeException {
         if (side > 0) this.side = side;
-        else try {
+        else {
             throw new FigureElementNegativeException("Square's side cannot be a negative number");
-        } catch (FigureElementNegativeException e) {
-            e.printStackTrace();
         }
     }
 

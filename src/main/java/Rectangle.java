@@ -4,15 +4,13 @@ public class Rectangle extends Figure {
     private double base;
     private double height;
 
-    public Rectangle(double base, double height) {
+    public Rectangle(double base, double height) throws FigureElementNegativeException {
         if (base > 0 && height > 0) {
             this.base = base;
             this.height = height;
         }
-        else try {
+        else {
             throw new FigureElementNegativeException("You cannot have a negative base or height in a rectangle");
-        } catch (FigureElementNegativeException e) {
-            e.printStackTrace();
         }
     }
 

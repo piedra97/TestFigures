@@ -1,21 +1,24 @@
-import org.junit.Assert;
 import org.junit.jupiter.api.Assertions;
 import org.junit.Test;
 
 public class CircleTest {
 
 
-    @Test(expected = FigureElementNegativeException.class)
+    @Test
     public void havingCircleRadiusNegativeThrowsAFigureElementNegativeException() {
         //Arrange
         double radius = -1.0;
-        //Act
-        Circle circle = new Circle(radius);
-        //Assert
-        Assertions.fail();
+        try {
+            //Act
+            Circle circle = new Circle(radius);
+            //Assert
+            Assertions.fail("Figure Element Negative Exception not thrown");
+        } catch (FigureElementNegativeException ignored) {}
     }
+
+
     @Test
-    public void calculateAreaWithPositiveRadiusOk() {
+    public void calculateAreaWithPositiveRadiusOk() throws FigureElementNegativeException {
         //Arrange
         double radius = 5.0;
         //Act
@@ -26,13 +29,14 @@ public class CircleTest {
     }
 
     @Test
-    public void calculatePerimeterWithPositiveRadiusOk() {
+    public void calculatePerimeterWithPositiveRadiusOk() throws FigureElementNegativeException {
         //Arrange
         double radius = 5.0;
         //Act
         Circle circle = new Circle(radius);
         double result = circle.getPerimeter();
         //Asserts
-        Assertions.assertEquals(62.83185307179586, result, 0.01);
+        Assertions.assertEquals(31.41592653589793, result, 0.01);
     }
+
 }

@@ -3,12 +3,10 @@
 public class Circle extends Figure {
     private double radius;
 
-    public Circle(double radius) {
+    public Circle(double radius) throws FigureElementNegativeException {
         if(radius > 0) this.radius = radius;
-        else try {
+        else {
             throw new FigureElementNegativeException("Circle's radius cannot be a negative number");
-        } catch (FigureElementNegativeException e) {
-            e.printStackTrace();
         }
     }
 
