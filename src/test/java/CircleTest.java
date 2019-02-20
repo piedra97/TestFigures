@@ -39,4 +39,30 @@ public class CircleTest {
         Assertions.assertEquals(12.566370614359172, result, 0.01);
     }
 
+    @Test
+    public void testOverrideArea() {
+        //Arrange
+        double radius = Double.MAX_VALUE;
+        try {
+            //Act
+            Circle circle = new Circle(radius);
+            double result = circle.getArea();
+            //Assertions
+            Assertions.fail("Radius Maxim double value doesn't throw exception");
+        }catch(ArithmeticException ignored) {}
+    }
+
+    @Test
+    public void testOverridePerimeter() {
+        //Arrange
+        double radius = Double.MAX_VALUE;
+        try {
+            //Act
+            Circle circle = new Circle(radius);
+            double result = circle.getPerimeter();
+            //Assertions
+            Assertions.fail("Radius Maxim double value doesn't throw exception");
+        }catch(ArithmeticException ignored) {}
+    }
+
 }
