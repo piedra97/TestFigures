@@ -13,11 +13,15 @@ public class Rectangle implements Shape {
 
     @Override
     public double getArea() {
-        return base * height;
+        double area = base * height;
+        if(area == Double.POSITIVE_INFINITY) throw new ArithmeticException("Double Overflow");
+        return area;
     }
 
     @Override
     public double getPerimeter() {
-        return 2 * (base + height);
+        double perimeter = 2*(base + height);
+        if(perimeter == Double.POSITIVE_INFINITY) throw new ArithmeticException("Double Overflow");
+        return perimeter;
     }
 }

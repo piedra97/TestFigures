@@ -53,4 +53,32 @@ public class RectangleTest {
         //Asserts
         Assertions.assertEquals(12.0, result);
     }
+
+    @Test
+    public void testOverridePerimeter() {
+        //Arrange
+        double base = Double.MAX_VALUE;
+        double height = 1.0;
+        try {
+            //Act
+            Rectangle rectangle = new Rectangle(base,height);
+            double result = rectangle.getPerimeter();
+            //Assertions
+            Assertions.fail("Rectangle's component double max  doesn't throw exception");
+        }catch(ArithmeticException ignored) {}
+    }
+
+    @Test
+    public void testOverrideArea() {
+        //Arrange
+        double base = Double.MAX_VALUE;
+        double height = 2.0;
+        try {
+            //Act
+            Rectangle rectangle = new Rectangle(base,height);
+            double result = rectangle.getArea();
+            //Assertions
+            Assertions.fail("Rectangle's component double max value doesn't throw exception");
+        }catch(ArithmeticException ignored) {}
+    }
 }

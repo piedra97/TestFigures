@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cee4ff21-61bc-408b-aca9-f95dbcd41c97" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/main/java/Circle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Circle.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Square.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Square.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Rectangle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Rectangle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/RectangleTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/RectangleTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/SquareTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/SquareTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -58,13 +58,13 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="2665" />
+          <entry key="java" value="2883" />
           <entry key="xml" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="2665" />
+          <entry key="JAVA" value="2883" />
           <entry key="XML" value="1" />
         </counts>
       </usages-collector>
@@ -111,11 +111,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/SquareTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="441">
-              <caret line="63" column="46" lean-forward="true" selection-start-line="63" selection-start-column="46" selection-end-line="63" selection-end-column="46" />
+            <state relative-caret-position="629">
+              <caret line="46" column="45" lean-forward="true" selection-start-line="46" selection-start-column="45" selection-end-line="47" selection-end-column="45" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -123,11 +123,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/RectangleTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-51">
-              <caret line="24" column="13" selection-start-line="24" selection-start-column="13" selection-end-line="24" selection-end-column="13" />
+            <state relative-caret-position="1258">
+              <caret line="74" column="25" selection-start-line="74" selection-start-column="25" selection-end-line="74" selection-end-column="25" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -138,8 +138,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/CircleTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="16">
-              <caret line="54" column="2" selection-start-line="54" selection-start-column="2" selection-end-line="65" selection-end-column="5" />
+            <state relative-caret-position="1139">
+              <caret line="67" column="1" lean-forward="true" selection-start-line="67" selection-start-column="1" selection-end-line="67" selection-end-column="1" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -150,14 +150,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/Rectangle.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret line="12" selection-start-line="12" selection-end-line="12" />
-              <folding>
-                <element signature="e#250#251#0" expanded="true" />
-                <element signature="e#286#287#0" expanded="true" />
-                <element signature="e#336#337#0" expanded="true" />
-                <element signature="e#378#379#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="88">
+              <caret line="18" column="5" lean-forward="true" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -178,7 +172,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/ComparatorTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
+            <state relative-caret-position="61">
               <caret line="11" column="37" lean-forward="true" selection-start-line="11" selection-start-column="37" selection-end-line="11" selection-end-column="37" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -215,15 +209,15 @@
         <option value="$PROJECT_DIR$/src/main/java/Figure.java" />
         <option value="$PROJECT_DIR$/src/main/java/FigureElementNegative.java" />
         <option value="$PROJECT_DIR$/src/main/java/Shape.java" />
-        <option value="$PROJECT_DIR$/src/main/java/Rectangle.java" />
-        <option value="$PROJECT_DIR$/src/test/java/RectangleTest.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/Comparator.java" />
         <option value="$PROJECT_DIR$/src/test/java/ComparatorTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/CircleTest.java" />
-        <option value="$PROJECT_DIR$/src/test/java/SquareTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/Circle.java" />
         <option value="$PROJECT_DIR$/src/main/java/Square.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Rectangle.java" />
+        <option value="$PROJECT_DIR$/src/test/java/SquareTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/RectangleTest.java" />
       </list>
     </option>
   </component>
@@ -295,7 +289,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1550660913352" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1550661466856" />
     <property name="last_opened_file_path" value="$USER_HOME$/Downloads/M03_UF5_Practica_DRius_PPiedra" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
@@ -314,23 +308,11 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.SquareTest.testOverridePerimeter">
-    <configuration name="CircleTest.testOverrideArea" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.SquareTest">
+    <configuration name="CircleTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="TestFigures" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="CircleTest" />
-      <option name="METHOD_NAME" value="testOverrideArea" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="CircleTest.testOverridePerimeter" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="TestFigures" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="CircleTest" />
-      <option name="METHOD_NAME" value="testOverridePerimeter" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -343,40 +325,46 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SquareTest.testOverrideArea" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="RectangleTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="TestFigures" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="SquareTest" />
+      <option name="MAIN_CLASS_NAME" value="RectangleTest" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RectangleTest.testOverrideArea" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="TestFigures" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="RectangleTest" />
       <option name="METHOD_NAME" value="testOverrideArea" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SquareTest.testOverridePerimeter" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="SquareTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="TestFigures" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="SquareTest" />
-      <option name="METHOD_NAME" value="testOverridePerimeter" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <list>
+      <item itemvalue="JUnit.RectangleTest.testOverrideArea" />
+      <item itemvalue="JUnit.CircleTest" />
       <item itemvalue="JUnit.ComparatorTest" />
-      <item itemvalue="JUnit.CircleTest.testOverrideArea" />
-      <item itemvalue="JUnit.CircleTest.testOverridePerimeter" />
-      <item itemvalue="JUnit.SquareTest.testOverrideArea" />
-      <item itemvalue="JUnit.SquareTest.testOverridePerimeter" />
+      <item itemvalue="JUnit.SquareTest" />
+      <item itemvalue="JUnit.RectangleTest" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.SquareTest.testOverridePerimeter" />
-        <item itemvalue="JUnit.SquareTest.testOverrideArea" />
-        <item itemvalue="JUnit.CircleTest.testOverrideArea" />
-        <item itemvalue="JUnit.CircleTest.testOverridePerimeter" />
+        <item itemvalue="JUnit.SquareTest" />
+        <item itemvalue="JUnit.RectangleTest" />
         <item itemvalue="JUnit.ComparatorTest" />
+        <item itemvalue="JUnit.CircleTest" />
+        <item itemvalue="JUnit.RectangleTest.testOverrideArea" />
       </list>
     </recent_temporary>
   </component>
@@ -394,35 +382,35 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="ComparatorTest - 2019.02.20 at 11h 35m 17s.xml">
-      <configuration name="ComparatorTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ComparatorTest - 2019.02.20 at 11h 38m 54s.xml">
-      <configuration name="ComparatorTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ComparatorTest - 2019.02.20 at 11h 39m 50s.xml">
-      <configuration name="ComparatorTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="CircleTest_testOverrideArea - 2019.02.20 at 11h 55m 38s.xml">
-      <configuration name="CircleTest.testOverrideArea" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="CircleTest_testOverridePerimeter - 2019.02.20 at 11h 58m 43s.xml">
-      <configuration name="CircleTest.testOverridePerimeter" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="CircleTest_testOverridePerimeter - 2019.02.20 at 11h 59m 34s.xml">
-      <configuration name="CircleTest.testOverridePerimeter" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="CircleTest_testOverridePerimeter - 2019.02.20 at 11h 59m 47s.xml">
-      <configuration name="CircleTest.testOverridePerimeter" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="CircleTest_testOverridePerimeter - 2019.02.20 at 12h 01m 07s.xml">
-      <configuration name="CircleTest.testOverridePerimeter" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="CircleTest_testOverridePerimeter - 2019.02.20 at 12h 01m 43s.xml">
       <configuration name="CircleTest.testOverridePerimeter" configurationId="JUnit" />
     </history-entry>
     <history-entry file="CircleTest_testOverrideArea - 2019.02.20 at 12h 02m 14s.xml">
       <configuration name="CircleTest.testOverrideArea" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SquareTest_testOverrideArea - 2019.02.20 at 12h 08m 26s.xml">
+      <configuration name="SquareTest.testOverrideArea" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SquareTest_testOverridePerimeter - 2019.02.20 at 12h 08m 36s.xml">
+      <configuration name="SquareTest.testOverridePerimeter" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="RectangleTest_testOverridePerimeter - 2019.02.20 at 12h 13m 22s.xml">
+      <configuration name="RectangleTest.testOverridePerimeter" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="RectangleTest_testOverrideArea - 2019.02.20 at 12h 13m 29s.xml">
+      <configuration name="RectangleTest.testOverrideArea" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="RectangleTest_testOverrideArea - 2019.02.20 at 12h 16m 04s.xml">
+      <configuration name="RectangleTest.testOverrideArea" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CircleTest - 2019.02.20 at 12h 16m 10s.xml">
+      <configuration name="CircleTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ComparatorTest - 2019.02.20 at 12h 16m 19s.xml">
+      <configuration name="ComparatorTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SquareTest - 2019.02.20 at 12h 16m 38s.xml">
+      <configuration name="SquareTest" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
@@ -438,7 +426,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.18859649" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.3399123" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.41666666" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -503,19 +491,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Rectangle.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="12" selection-start-line="12" selection-end-line="12" />
-          <folding>
-            <element signature="e#250#251#0" expanded="true" />
-            <element signature="e#286#287#0" expanded="true" />
-            <element signature="e#336#337#0" expanded="true" />
-            <element signature="e#378#379#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="160">
@@ -541,36 +516,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/RectangleTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-51">
-          <caret line="24" column="13" selection-start-line="24" selection-start-column="13" selection-end-line="24" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/ComparatorTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="37" lean-forward="true" selection-start-line="11" selection-start-column="37" selection-end-line="11" selection-end-column="37" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/CircleTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="16">
-          <caret line="54" column="2" selection-start-line="54" selection-start-column="2" selection-end-line="65" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Circle.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="291">
@@ -585,10 +530,47 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/CircleTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1139">
+          <caret line="67" column="1" lean-forward="true" selection-start-line="67" selection-start-column="1" selection-end-line="67" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/ComparatorTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="61">
+          <caret line="11" column="37" lean-forward="true" selection-start-line="11" selection-start-column="37" selection-end-line="11" selection-end-column="37" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/SquareTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="441">
-          <caret line="63" column="46" lean-forward="true" selection-start-line="63" selection-start-column="46" selection-end-line="63" selection-end-column="46" />
+        <state relative-caret-position="629">
+          <caret line="46" column="45" lean-forward="true" selection-start-line="46" selection-start-column="45" selection-end-line="47" selection-end-column="45" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Rectangle.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="18" column="5" lean-forward="true" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/RectangleTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1258">
+          <caret line="74" column="25" selection-start-line="74" selection-start-column="25" selection-end-line="74" selection-end-column="25" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

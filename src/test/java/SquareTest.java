@@ -45,7 +45,7 @@ public class SquareTest {
         try {
             //Act
             Square square = new Square(side);
-            double result = square.getPerimeter();
+            double result = square.getArea();
             //Assertions
             Assertions.fail("Side Maxim double value doesn't throw exception");
         }catch(ArithmeticException ignored) {}
