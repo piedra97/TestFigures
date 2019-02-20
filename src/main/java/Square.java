@@ -11,11 +11,15 @@ public class Square implements Shape{
 
     @Override
     public double getArea() {
-        return Math.pow(side, 2);
+        double area = Math.pow(side, 2);
+        if (area == Double.POSITIVE_INFINITY) throw new ArithmeticException("Double Overflow");
+        return area;
     }
 
     @Override
     public double getPerimeter() {
-        return side * 4;
+        double perimeter = side * 4;
+        if (perimeter == Double.POSITIVE_INFINITY) throw new ArithmeticException("Double Overflow");
+        return perimeter;
     }
 }

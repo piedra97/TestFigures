@@ -37,4 +37,30 @@ public class SquareTest {
         //Asserts
         Assertions.assertEquals(20.0, result);
     }
+
+    @Test
+    public void testOverrideArea() {
+        //Arrange
+        double side= Double.MAX_VALUE;
+        try {
+            //Act
+            Square square = new Square(side);
+            double result = square.getPerimeter();
+            //Assertions
+            Assertions.fail("Side Maxim double value doesn't throw exception");
+        }catch(ArithmeticException ignored) {}
+    }
+
+    @Test
+    public void testOverridePerimeter() {
+        //Arrange
+        double side = Double.MAX_VALUE;
+        try {
+            //Act
+            Square square = new Square(side);
+            double result = square.getPerimeter();
+            //Assertions
+            Assertions.fail("Side Maxim double value doesn't throw exception");
+        }catch(ArithmeticException ignored) {}
+    }
 }
