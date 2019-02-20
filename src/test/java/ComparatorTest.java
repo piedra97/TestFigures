@@ -1,72 +1,102 @@
 import org.junit.jupiter.api.Assertions;
 import org.junit.Test;
 
+import static org.mockito.Mockito.mock;
+import static org.mockito.Mockito.when;
+
 public class ComparatorTest {
-    private Comparator comparator = new Comparator();
 
     @Test
-    public void ifFirstFigureAreaIsGreaterThanSecondOneReturnOne() {
+    public void ifFirstFigureAreaIsGreaterThanSecondOneReturnNumberGreaterThanZero() {
         //Arrange
-        Circle circle = new Circle(10);
-        Rectangle rectangle = new Rectangle(10, 20);
+        Shape s1 = mock(Shape.class);
+        Shape s2 = mock(Shape.class);
+
+        when(s1.getArea()).thenReturn(10.0);
+        when(s2.getArea()).thenReturn(1.0);
+
         //Act
-        int result = comparator.compareArea(circle, rectangle);
+        double value = Comparator.compareArea(s1,s2);
         //Asserts
-        Assertions.assertEquals(1, result);
+        Assertions.assertTrue(value > 0);
     }
 
     @Test
-    public void ifFirstFigureAreaIsLowerThanSecondOneReturnNegativeOne() {
+    public void ifFirstFigureAreaIsLowerThanSecondOneReturnNumberNegative() {
         //Arrange
-        Rectangle rectangle = new Rectangle(10, 20);
-        Square square = new Square(40);
+        Shape s1 = mock(Shape.class);
+        Shape s2 = mock(Shape.class);
+
+        when(s1.getArea()).thenReturn(1.0);
+        when(s2.getArea()).thenReturn(10.0);
+
         //Act
-        int result = comparator.compareArea(rectangle, square);
+        double value = Comparator.compareArea(s1,s2);
         //Asserts
-        Assertions.assertEquals(-1, result);
+        Assertions.assertTrue(value < 0);
+    }
+
+
+    @Test
+    public void ifFirstFigureAreaIsEqualToSecondOneReturnZero() {
+        //Arrange
+        Shape s1 = mock(Shape.class);
+        Shape s2 = mock(Shape.class);
+
+        when(s1.getArea()).thenReturn(10.0);
+        when(s2.getArea()).thenReturn(10.0);
+
+        //Act
+        double value = Comparator.compareArea(s1,s2);
+        //Asserts
+        Assertions.assertTrue(value == 0);
+    }
+
+
+    @Test
+    public void ifFirstFigurePerimeterIsGreaterThanSecondOneReturnNumberGreaterThanZero()  {
+        //Arrange
+        Shape s1 = mock(Shape.class);
+        Shape s2 = mock(Shape.class);
+
+        when(s1.getPerimeter()).thenReturn(10.0);
+        when(s2.getPerimeter()).thenReturn(1.0);
+
+        //Act
+        double value = Comparator.comparePerimeter(s1,s2);
+        //Asserts
+        Assertions.assertTrue(value > 0);
     }
 
     @Test
-    public void ifFirstFigurePerimeterIsGreaterThanSecondOneReturnOne()  {
+    public void ifFirstFigurePerimeterIsLowerThanSecondOneReturnNegativeNumber() {
         //Arrange
-        Circle circle = new Circle(10);
-        Rectangle rectangle = new Rectangle(10, 20);
+        Shape s1 = mock(Shape.class);
+        Shape s2 = mock(Shape.class);
+
+        when(s1.getPerimeter()).thenReturn(1.0);
+        when(s2.getPerimeter()).thenReturn(10.0);
+
         //Act
-        int result = comparator.comparePerimeter(circle, rectangle);
+        double value = Comparator.comparePerimeter(s1,s2);
+
         //Asserts
-        Assertions.assertEquals(1, result);
+        Assertions.assertTrue(value < 0);
     }
 
-    @Test
-    public void ifFirstFigurePerimeterIsLowerThanSecondOneReturnIntegerNegativeOne() {
-        //Arrange
-        Rectangle rectangle = new Rectangle(10, 20);
-        Square square = new Square(40);
-        //Act
-        int result = comparator.comparePerimeter(rectangle, square);
-        //Asserts
-        Assertions.assertEquals(-1, result);
-    }
 
     @Test
-    public void ifFirstFigureAreaIsEqualToSecondOneReturnZero()  {
+    public void ifFirstFigurePerimeterIsEqualToSecondOneReturnNumberZero() {
         //Arrange
-        Rectangle rectangle = new Rectangle(800, 2);
-        Square square = new Square(40);
-        //Act
-        int result = comparator.compareArea(rectangle, square);
-        //Asserts
-        Assertions.assertEquals(0, result);
-    }
+        Shape s1 = mock(Shape.class);
+        Shape s2 = mock(Shape.class);
 
-    @Test
-    public void ifFirstFigurePerimeterIsEqualToSecondOneItShouldReturnIntegerZero() {
-        //Arrange
-        Rectangle rectangle = new Rectangle(40, 40);
-        Square square = new Square(40);
+        when(s1.getPerimeter()).thenReturn(10.0);
+        when(s2.getPerimeter()).thenReturn(10.0);
+
         //Act
-        int result = comparator.comparePerimeter(rectangle, square);
+        double value = Comparator.comparePerimeter(s1,s2);
         //Asserts
-        Assertions.assertEquals(0, result);
+        Assertions.assertTrue(value == 0);
     }
 }

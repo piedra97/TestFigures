@@ -1,23 +1,11 @@
 
 
 public class Comparator {
-    public int compareArea(Shape figureA, Shape figureB) {
-        if (figureA.getArea() > figureB.getArea()) {
-            return 1;
-        } else if (figureA.getArea() < figureB.getArea()) {
-            return -1;
-        } else {
-            return 0;
-        }
+    public static double compareArea(Shape shapeA, Shape shapeB) {
+       return shapeA.getArea() - shapeB.getArea();
     }
 
-   public  int comparePerimeter(Shape figureA, Shape figureB) {
-        if (figureA.getPerimeter() > figureB.getPerimeter()) {
-            return 1;
-        } else if (figureA.getPerimeter() < figureB.getPerimeter()) {
-            return -1;
-        } else {
-            return 0;
-        }
+   public  static double comparePerimeter(Shape shapeA, Shape shapeB) {
+       return shapeA.getPerimeter() - shapeB.getPerimeter();
     }
 }
