@@ -5,13 +5,9 @@ public class Rectangle implements Shape {
     private double height;
 
     public Rectangle(double base, double height) {
-        if (base > 0 && height > 0) {
-            this.base = base;
-            this.height = height;
-        }
-        else {
-            //("You cannot have a negative base or height in a rectangle");
-        }
+        if (base <= 0 || height <= 0) throw new IllegalArgumentException("You cannot have any Rectangle's component equal or smaller than zero");
+         this.base = base;
+         this.height = height;
     }
 
 

@@ -2,18 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cee4ff21-61bc-408b-aca9-f95dbcd41c97" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/Shape.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Circle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Circle.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Comparator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Comparator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Figure.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/FigureElementNegative.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Rectangle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Rectangle.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Square.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Square.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/CircleTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/CircleTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/ComparatorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ComparatorTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/RectangleTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/RectangleTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/SquareTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/SquareTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -67,12 +57,12 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="1183" />
+          <entry key="java" value="1354" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="1183" />
+          <entry key="JAVA" value="1354" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -94,8 +84,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/Circle.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="16" column="32" lean-forward="true" selection-start-line="16" selection-start-column="32" selection-end-line="16" selection-end-column="32" />
+            <state relative-caret-position="102">
+              <caret line="6" column="20" selection-start-line="6" selection-start-column="20" selection-end-line="6" selection-end-column="20" />
               <folding>
                 <element signature="e#360#361#0" expanded="true" />
                 <element signature="e#414#415#0" expanded="true" />
@@ -136,11 +126,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/RectangleTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="224">
-              <caret line="56" lean-forward="true" selection-start-line="56" selection-end-line="56" />
+            <state relative-caret-position="194">
+              <caret line="44" column="9" lean-forward="true" selection-start-line="44" selection-start-column="9" selection-end-line="44" selection-end-column="9" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -148,11 +138,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/CircleTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="256">
-              <caret line="33" column="25" selection-start-line="33" selection-start-column="25" selection-end-line="33" selection-end-column="25" />
+            <state relative-caret-position="126">
+              <caret line="14" column="62" selection-start-line="14" selection-start-column="29" selection-end-line="14" selection-end-column="62" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -163,8 +153,14 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/Rectangle.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-116">
-              <caret line="7" column="37" lean-forward="true" selection-start-line="7" selection-start-column="37" selection-end-line="7" selection-end-column="37" />
+            <state>
+              <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+              <folding>
+                <element signature="e#250#251#0" expanded="true" />
+                <element signature="e#286#287#0" expanded="true" />
+                <element signature="e#336#337#0" expanded="true" />
+                <element signature="e#378#379#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -181,8 +177,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/ComparatorTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="224">
-              <caret line="72" lean-forward="true" selection-start-line="72" selection-end-line="72" />
+            <state relative-caret-position="51">
+              <caret line="3" column="13" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -217,15 +213,15 @@
       <list>
         <option value="$PROJECT_DIR$/src/main/java/Figure.java" />
         <option value="$PROJECT_DIR$/src/main/java/FigureElementNegative.java" />
-        <option value="$PROJECT_DIR$/src/test/java/CircleTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/Shape.java" />
-        <option value="$PROJECT_DIR$/src/main/java/Circle.java" />
-        <option value="$PROJECT_DIR$/src/main/java/Rectangle.java" />
         <option value="$PROJECT_DIR$/src/main/java/Square.java" />
         <option value="$PROJECT_DIR$/src/main/java/Comparator.java" />
-        <option value="$PROJECT_DIR$/src/test/java/RectangleTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/ComparatorTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/SquareTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/CircleTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Circle.java" />
+        <option value="$PROJECT_DIR$/src/test/java/RectangleTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Rectangle.java" />
       </list>
     </option>
   </component>
@@ -290,7 +286,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1550657206267" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1550657705990" />
     <property name="last_opened_file_path" value="$USER_HOME$/Downloads/M03_UF5_Practica_DRius_PPiedra" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
@@ -309,7 +305,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.CircleTest.calculatePerimeterWithPositiveRadiusOk">
+  <component name="RunManager" selected="JUnit.RectangleTest">
     <configuration name="CircleTest.calculateAreaWithPositiveRadiusOk" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="TestFigures" />
       <option name="PACKAGE_NAME" value="" />
@@ -330,16 +326,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CircleTest.havingCircleRadiusNegativeOrEqualToZeroThrowsAnIllegalArgumentException" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="TestFigures" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="CircleTest" />
-      <option name="METHOD_NAME" value="havingCircleRadiusNegativeOrEqualToZeroThrowsAnIllegalArgumentException" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="RectangleTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="TestFigures" />
       <option name="PACKAGE_NAME" value="" />
@@ -348,11 +334,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SquareTest.havingSquareSideNegativeThrowsAFigureElementNegativeException" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="RectangleTest.calculateAreaWithPositiveSideOk" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="TestFigures" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="SquareTest" />
-      <option name="METHOD_NAME" value="havingSquareSideNegativeThrowsAFigureElementNegativeException" />
+      <option name="MAIN_CLASS_NAME" value="RectangleTest" />
+      <option name="METHOD_NAME" value="calculateAreaWithPositiveSideOk" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RectangleTest.havingRectangleBaseNegativeThrowsAFigureElementNegativeException" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="TestFigures" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="RectangleTest" />
+      <option name="METHOD_NAME" value="havingRectangleBaseNegativeThrowsAFigureElementNegativeException" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -361,17 +357,17 @@
     <list>
       <item itemvalue="JUnit.CircleTest.calculatePerimeterWithPositiveRadiusOk" />
       <item itemvalue="JUnit.CircleTest.calculateAreaWithPositiveRadiusOk" />
+      <item itemvalue="JUnit.RectangleTest.calculateAreaWithPositiveSideOk" />
+      <item itemvalue="JUnit.RectangleTest.havingRectangleBaseNegativeThrowsAFigureElementNegativeException" />
       <item itemvalue="JUnit.RectangleTest" />
-      <item itemvalue="JUnit.SquareTest.havingSquareSideNegativeThrowsAFigureElementNegativeException" />
-      <item itemvalue="JUnit.CircleTest.havingCircleRadiusNegativeOrEqualToZeroThrowsAnIllegalArgumentException" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.RectangleTest" />
+        <item itemvalue="JUnit.RectangleTest.havingRectangleBaseNegativeThrowsAFigureElementNegativeException" />
+        <item itemvalue="JUnit.RectangleTest.calculateAreaWithPositiveSideOk" />
         <item itemvalue="JUnit.CircleTest.calculatePerimeterWithPositiveRadiusOk" />
         <item itemvalue="JUnit.CircleTest.calculateAreaWithPositiveRadiusOk" />
-        <item itemvalue="JUnit.CircleTest.havingCircleRadiusNegativeOrEqualToZeroThrowsAnIllegalArgumentException" />
-        <item itemvalue="JUnit.SquareTest.havingSquareSideNegativeThrowsAFigureElementNegativeException" />
-        <item itemvalue="JUnit.RectangleTest" />
       </list>
     </recent_temporary>
   </component>
@@ -389,24 +385,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="SquareTest_havingSquareSideNegativeThrowsAFigureElementNegativeException - 2019.02.17 at 10h 58m 12s.xml">
-      <configuration name="SquareTest.havingSquareSideNegativeThrowsAFigureElementNegativeException" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="CircleTest_havingCircleRadiusNegativeThrowsAFigureElementNegativeException - 2019.02.17 at 11h 19m 10s.xml">
-      <configuration name="CircleTest.havingCircleRadiusNegativeThrowsAFigureElementNegativeException" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="CircleTest - 2019.02.17 at 11h 19m 16s.xml">
-      <configuration name="CircleTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="CircleTest_calculatePerimeterWithPositiveRadiusOk - 2019.02.17 at 11h 19m 28s.xml">
-      <configuration name="CircleTest.calculatePerimeterWithPositiveRadiusOk" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="CircleTest_calculateAreaWithPositiveRadiusOk - 2019.02.17 at 11h 19m 42s.xml">
-      <configuration name="CircleTest.calculateAreaWithPositiveRadiusOk" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="CircleTest_calculatePerimeterWithPositiveRadiusOk - 2019.02.17 at 11h 20m 20s.xml">
-      <configuration name="CircleTest.calculatePerimeterWithPositiveRadiusOk" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="CircleTest_calculatePerimeterWithPositiveRadiusOk - 2019.02.17 at 11h 20m 29s.xml">
       <configuration name="CircleTest.calculatePerimeterWithPositiveRadiusOk" configurationId="JUnit" />
     </history-entry>
@@ -418,6 +396,24 @@
     </history-entry>
     <history-entry file="SquareTest_havingSquareSideNegativeThrowsAFigureElementNegativeException - 2019.02.17 at 11h 20m 59s.xml">
       <configuration name="SquareTest.havingSquareSideNegativeThrowsAFigureElementNegativeException" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CircleTest_calculateAreaWithPositiveRadiusOk - 2019.02.20 at 11h 05m 13s.xml">
+      <configuration name="CircleTest.calculateAreaWithPositiveRadiusOk" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CircleTest_calculatePerimeterWithPositiveRadiusOk - 2019.02.20 at 11h 05m 32s.xml">
+      <configuration name="CircleTest.calculatePerimeterWithPositiveRadiusOk" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CircleTest_havingCircleRadiusNegativeOrEqualToZeroThrowsAnIllegalArgumentException - 2019.02.20 at 11h 05m 50s.xml">
+      <configuration name="CircleTest.havingCircleRadiusNegativeOrEqualToZeroThrowsAnIllegalArgumentException" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CircleTest_havingCircleRadiusNegativeOrEqualToZeroThrowsAnIllegalArgumentException - 2019.02.20 at 11h 06m 28s.xml">
+      <configuration name="CircleTest.havingCircleRadiusNegativeOrEqualToZeroThrowsAnIllegalArgumentException" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CircleTest_calculateAreaWithPositiveRadiusOk - 2019.02.20 at 11h 06m 41s.xml">
+      <configuration name="CircleTest.calculateAreaWithPositiveRadiusOk" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CircleTest_calculatePerimeterWithPositiveRadiusOk - 2019.02.20 at 11h 06m 49s.xml">
+      <configuration name="CircleTest.calculatePerimeterWithPositiveRadiusOk" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
@@ -433,15 +429,15 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.28289473" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.52412283" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.28289473" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.028508771" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="9" />
-      <window_info anchor="bottom" id="Messages" order="10" visible="true" weight="0.32894737" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.32894737" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -487,16 +483,16 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/CircleTest.java</url>
-          <line>27</line>
+          <url>file://$PROJECT_DIR$/src/test/java/RectangleTest.java</url>
+          <line>41</line>
           <properties />
-          <option name="timeStamp" value="2" />
+          <option name="timeStamp" value="4" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/CircleTest.java</url>
-          <line>38</line>
+          <url>file://$PROJECT_DIR$/src/test/java/RectangleTest.java</url>
+          <line>53</line>
           <properties />
-          <option name="timeStamp" value="3" />
+          <option name="timeStamp" value="5" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
@@ -530,26 +526,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Circle.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="16" column="32" lean-forward="true" selection-start-line="16" selection-start-column="32" selection-end-line="16" selection-end-column="32" />
-          <folding>
-            <element signature="e#360#361#0" expanded="true" />
-            <element signature="e#414#415#0" expanded="true" />
-            <element signature="e#464#465#0" expanded="true" />
-            <element signature="e#507#508#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Rectangle.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-116">
-          <caret line="7" column="37" lean-forward="true" selection-start-line="7" selection-start-column="37" selection-end-line="7" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Square.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
@@ -564,26 +540,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/RectangleTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="224">
-          <caret line="56" lean-forward="true" selection-start-line="56" selection-end-line="56" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/ComparatorTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="224">
-          <caret line="72" lean-forward="true" selection-start-line="72" selection-end-line="72" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/SquareTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="680">
@@ -594,10 +550,56 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Circle.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="20" selection-start-line="6" selection-start-column="20" selection-end-line="6" selection-end-column="20" />
+          <folding>
+            <element signature="e#360#361#0" expanded="true" />
+            <element signature="e#414#415#0" expanded="true" />
+            <element signature="e#464#465#0" expanded="true" />
+            <element signature="e#507#508#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/ComparatorTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="13" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/CircleTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="256">
-          <caret line="33" column="25" selection-start-line="33" selection-start-column="25" selection-end-line="33" selection-end-column="25" />
+        <state relative-caret-position="126">
+          <caret line="14" column="62" selection-start-line="14" selection-start-column="29" selection-end-line="14" selection-end-column="62" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Rectangle.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+          <folding>
+            <element signature="e#250#251#0" expanded="true" />
+            <element signature="e#286#287#0" expanded="true" />
+            <element signature="e#336#337#0" expanded="true" />
+            <element signature="e#378#379#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/RectangleTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="194">
+          <caret line="44" column="9" lean-forward="true" selection-start-line="44" selection-start-column="9" selection-end-line="44" selection-end-column="9" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

@@ -5,28 +5,28 @@ public class RectangleTest {
 
 
     @Test
-    public void havingRectangleBaseNegativeThrowsAFigureElementNegativeException() {
+    public void havingRectangleBaseNegativeOrEqualZeroThrowsAnIllegalArgumentException() {
         //Arrange
-        double base = -1.0;
-        double height = 5.0;
+        double base = 0.0;
+        double height = 2.0;
         try {
             //Act
             Rectangle rectangle = new Rectangle(base, height);
             //Assert
-            Assertions.fail("Figure Element Negative Exception not thrown");
+            Assertions.fail("Height 0 doesn't throw exception.");
         } catch (IllegalArgumentException ignored) {}
     }
 
     @Test
-    public void havingRectangleHeightNegativeThrowsAFigureElementNegativeException() {
+    public void havingRectangleHeightNegativeOrEqualToZeroThrowsAnIllegalArgumentException() {
         //Arrange
-        double base = 1.0;
-        double height = -5.0;
+        double base = 2.0;
+        double height = 0.0;
         try {
             //Act
             Rectangle rectangle = new Rectangle(base, height);
             //Assert
-            Assertions.fail("Figure Element Negative Exception not thrown");
+            Assertions.fail("Base 0 doesn't throw exception.");
         } catch (IllegalArgumentException ignored) {}
     }
 
