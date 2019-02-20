@@ -5,38 +5,38 @@ public class CircleTest {
 
 
     @Test
-    public void havingCircleRadiusNegativeThrowsAFigureElementNegativeException() {
+    public void havingCircleRadiusNegativeOrEqualToZeroThrowsAnIllegalArgumentException() {
         //Arrange
-        double radius = -1.0;
+        double radius = 0.0;
         try {
             //Act
             Circle circle = new Circle(radius);
             //Assert
-            Assertions.fail("Figure Element Negative Exception not thrown");
-        } catch (FigureElementNegativeException ignored) {}
+            Assertions.fail("Radius 0 doesn't throw exception.");
+        } catch (IllegalArgumentException ignored) {}
     }
 
 
     @Test
-    public void calculateAreaWithPositiveRadiusOk() throws FigureElementNegativeException {
+    public void calculateAreaWithPositiveRadiusOk() {
         //Arrange
-        double radius = 5.0;
+        double radius = 2.0;
         //Act
         Circle circle = new Circle(radius);
         double result = circle.getArea();
         //Asserts
-        Assertions.assertEquals(78.53981633974483, result, 0.01);
+        Assertions.assertEquals(12.566370614359172, result, 0.01);
     }
 
     @Test
-    public void calculatePerimeterWithPositiveRadiusOk() throws FigureElementNegativeException {
+    public void calculatePerimeterWithPositiveRadiusOk() {
         //Arrange
-        double radius = 5.0;
+        double radius = 2.0;
         //Act
         Circle circle = new Circle(radius);
         double result = circle.getPerimeter();
         //Asserts
-        Assertions.assertEquals(31.41592653589793, result, 0.01);
+        Assertions.assertEquals(12.566370614359172, result, 0.01);
     }
 
 }

@@ -5,7 +5,7 @@ public class ComparatorTest {
     private Comparator comparator = new Comparator();
 
     @Test
-    public void ifFirstFigureAreaIsGreaterThanSecondOneReturnOne() throws FigureElementNegativeException {
+    public void ifFirstFigureAreaIsGreaterThanSecondOneReturnOne() {
         //Arrange
         Circle circle = new Circle(10);
         Rectangle rectangle = new Rectangle(10, 20);
@@ -16,7 +16,7 @@ public class ComparatorTest {
     }
 
     @Test
-    public void ifFirstFigureAreaIsLowerThanSecondOneReturnNegativeOne() throws FigureElementNegativeException {
+    public void ifFirstFigureAreaIsLowerThanSecondOneReturnNegativeOne() {
         //Arrange
         Rectangle rectangle = new Rectangle(10, 20);
         Square square = new Square(40);
@@ -27,7 +27,7 @@ public class ComparatorTest {
     }
 
     @Test
-    public void ifFirstFigurePerimeterIsGreaterThanSecondOneReturnOne() throws FigureElementNegativeException {
+    public void ifFirstFigurePerimeterIsGreaterThanSecondOneReturnOne()  {
         //Arrange
         Circle circle = new Circle(10);
         Rectangle rectangle = new Rectangle(10, 20);
@@ -38,7 +38,7 @@ public class ComparatorTest {
     }
 
     @Test
-    public void ifFirstFigurePerimeterIsLowerThanSecondOneReturnIntegerNegativeOne() throws FigureElementNegativeException {
+    public void ifFirstFigurePerimeterIsLowerThanSecondOneReturnIntegerNegativeOne() {
         //Arrange
         Rectangle rectangle = new Rectangle(10, 20);
         Square square = new Square(40);
@@ -49,7 +49,7 @@ public class ComparatorTest {
     }
 
     @Test
-    public void ifFirstFigureAreaIsEqualToSecondOneReturnZero() throws FigureElementNegativeException {
+    public void ifFirstFigureAreaIsEqualToSecondOneReturnZero()  {
         //Arrange
         Rectangle rectangle = new Rectangle(800, 2);
         Square square = new Square(40);
@@ -60,7 +60,7 @@ public class ComparatorTest {
     }
 
     @Test
-    public void ifFirstFigurePerimeterIsEqualToSecondOneItShouldReturnIntegerZero() throws FigureElementNegativeException {
+    public void ifFirstFigurePerimeterIsEqualToSecondOneItShouldReturnIntegerZero() {
         //Arrange
         Rectangle rectangle = new Rectangle(40, 40);
         Square square = new Square(40);

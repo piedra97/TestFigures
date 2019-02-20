@@ -1,12 +1,12 @@
 
 
-public class Square extends Figure {
+public class Square implements Shape{
     private double side;
 
-    public Square(double side) throws FigureElementNegativeException {
+    public Square(double side) {
         if (side > 0) this.side = side;
         else {
-            throw new FigureElementNegativeException("Square's side cannot be a negative number");
+            //throw new FigureElementNegativeException("Square's side cannot be a negative number");
         }
     }
 

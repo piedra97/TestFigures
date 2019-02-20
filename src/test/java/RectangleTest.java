@@ -5,7 +5,7 @@ public class RectangleTest {
 
 
     @Test
-    public void havingRectangleBaseNegativeThrowsAFigureElementNegativeException() throws FigureElementNegativeException {
+    public void havingRectangleBaseNegativeThrowsAFigureElementNegativeException() {
         //Arrange
         double base = -1.0;
         double height = 5.0;
@@ -14,11 +14,11 @@ public class RectangleTest {
             Rectangle rectangle = new Rectangle(base, height);
             //Assert
             Assertions.fail("Figure Element Negative Exception not thrown");
-        } catch (FigureElementNegativeException ignored) {}
+        } catch (IllegalArgumentException ignored) {}
     }
 
     @Test
-    public void havingRectangleHeightNegativeThrowsAFigureElementNegativeException() throws FigureElementNegativeException {
+    public void havingRectangleHeightNegativeThrowsAFigureElementNegativeException() {
         //Arrange
         double base = 1.0;
         double height = -5.0;
@@ -27,11 +27,11 @@ public class RectangleTest {
             Rectangle rectangle = new Rectangle(base, height);
             //Assert
             Assertions.fail("Figure Element Negative Exception not thrown");
-        } catch (FigureElementNegativeException ignored) {}
+        } catch (IllegalArgumentException ignored) {}
     }
 
     @Test
-    public void calculateAreaWithPositiveSideOk() throws FigureElementNegativeException {
+    public void calculateAreaWithPositiveSideOk() {
         //Arrange
         double base = 1.0;
         double height = 5.0;
@@ -43,7 +43,7 @@ public class RectangleTest {
     }
 
     @Test
-    public void calculatePerimeterWithPositiveSideOk() throws FigureElementNegativeException {
+    public void calculatePerimeterWithPositiveSideOk()  {
         //Arrange
         double base = 1.0;
         double height = 5.0;

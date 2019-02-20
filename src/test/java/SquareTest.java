@@ -6,18 +6,18 @@ public class SquareTest {
 
 
     @Test
-    public void havingSquareSideNegativeThrowsAFigureElementNegativeException() throws FigureElementNegativeException {
+    public void havingSquareSideNegativeOrEqualToZeroThrowsAnIllegalArgumentException() {
         //Arrange
-        double side = -1.0;
+        double side = 0.0;
         try {
             //Act
             Square square = new Square(side);
             //Assert
             Assertions.fail("Figure Element Negative Exception not thrown");
-        } catch (FigureElementNegativeException ignored) {}
+        } catch (IllegalArgumentException ignored) {}
     }
     @Test
-    public void calculateAreaWithPositiveSideOk() throws FigureElementNegativeException {
+    public void calculateAreaWithPositiveSideOk()  {
         //Arrange
         double side = 5.0;
         //Act
@@ -28,7 +28,7 @@ public class SquareTest {
     }
 
     @Test
-    public void calculatePerimeterWithPositiveSideOk() throws FigureElementNegativeException {
+    public void calculatePerimeterWithPositiveSideOk()  {
         //Arrange
         double side = 5.0;
         //Act
